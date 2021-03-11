@@ -9,4 +9,3 @@ def test_add():
 def test_sub():
     for a, b in enumerate(range(10)):
         assert calc.sub(a, b * 2) == a - b * 2
-
